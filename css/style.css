@@ -362,7 +362,12 @@ h6,
     background-size: 253px 500px;
     z-index: 1;
 }
-
+.hero-img{
+    object-fit: fill !important;
+}
+.img-fluid{
+    object-fit: contain;
+}
 .screenshot-carousel .owl-item img {
     position: relative;
     width: 223px;
