@@ -386,6 +386,11 @@ h6,
     box-shadow: 0 0 10px var(--dark);
 }
 
+/* About start */
+.ibm-img{
+    border-radius: 24px;
+}
+
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item .testimonial-item * {
