@@ -335,6 +335,7 @@ h6,
 }
 .hero-img{
     object-fit: fill !important;
+    max-width: 100%;
 }
 .img-fluid{
     object-fit: contain;
@@ -390,6 +391,7 @@ h6,
 .ibm-img{
     border-radius: 24px;
 }
+
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item,
