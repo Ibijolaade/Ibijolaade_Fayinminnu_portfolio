@@ -446,6 +446,15 @@ h6,
     );
 }
 
+/* portfolio */
+.resize{
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+.a-link{
+    margin-top: 24px;
+}
+
 /*** Footer ***/
 .footer {
     margin-top: 6rem;
