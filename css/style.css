@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+    /* max-width: 100%; */
+}
 /********** Template CSS **********/
 :root {
     --primary: #0dcaf0;
@@ -5,9 +9,7 @@
     --light: #f0f6ff;
     --dark: #262b47;
 }
-body{
-    overflow-x: hidden;
-}
+
 
 /*** Spinner ***/
 #spinner {
@@ -220,7 +222,7 @@ h6,
     max-height: 45px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
         background: #ffffff;
@@ -262,7 +264,7 @@ h6,
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .navbar-light {
         position: absolute;
         width: 100%;
@@ -293,8 +295,8 @@ h6,
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 35rem;
-    padding: 16rem 0 0 0;
+    margin-bottom: 15rem;
+    padding: 16rem 0 30rem 0;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-bottom.png),
         linear-gradient(to bottom right, var(--primary), var(--secondary));
@@ -462,8 +464,8 @@ h6,
 
 /*** Footer ***/
 .footer {
-    margin-top: 35rem;
-    padding-top: 9rem;
+    margin-top: 15rem;
+    padding-top: 30rem;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-top.png),
         linear-gradient(to bottom right, var(--primary), var(--secondary));
@@ -532,3 +534,11 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+@media (max-width: 768px) {
+    .footer-start {
+        padding: 6rem 0 9rem 0;
+    }
+}
+/* @media  only screen and (max-width: 600px){
+
+} */
