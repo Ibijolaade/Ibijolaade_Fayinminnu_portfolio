@@ -5,6 +5,9 @@
     --light: #f0f6ff;
     --dark: #262b47;
 }
+body{
+    overflow-x: hidden;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -217,7 +220,7 @@ h6,
     max-height: 45px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 768px) {
     .sticky-top.navbar-light {
         position: relative;
         background: #ffffff;
@@ -259,7 +262,7 @@ h6,
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .navbar-light {
         position: absolute;
         width: 100%;
@@ -290,7 +293,7 @@ h6,
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
+    margin-bottom: 35rem;
     padding: 16rem 0 0 0;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-bottom.png),
@@ -299,7 +302,7 @@ h6,
     background-repeat: no-repeat;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 768px) {
     .hero-header {
         padding: 6rem 0 9rem 0;
     }
@@ -459,7 +462,7 @@ h6,
 
 /*** Footer ***/
 .footer {
-    margin-top: 6rem;
+    margin-top: 35rem;
     padding-top: 9rem;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-top.png),
