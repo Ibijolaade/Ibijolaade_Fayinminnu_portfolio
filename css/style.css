@@ -533,11 +533,12 @@ h6,
 }
 @media (max-width: 768px) {
     .footer-start {
-        padding: 6rem 6rem 9rem 0;
+        width: 280px;
+        margin: 50px auto;
+        /* padding: 6rem 6rem 9rem 0; */
     }
     body{
         overflow-x: hidden;
-        /* max-width: 100%; */
     }
 }
 /* @media  only screen and (max-width: 600px){
