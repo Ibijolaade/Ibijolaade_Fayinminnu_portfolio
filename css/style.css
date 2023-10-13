@@ -301,7 +301,7 @@ h6,
     background-repeat: no-repeat;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
     .hero-header {
         padding: 6rem 0 9rem 0;
     }
@@ -531,16 +531,10 @@ h6,
     padding-right: 0;
     border-right: none;
 }
-@media (max-width: 760px) {
-    .footer-start {
-        width: fit-content;
-        padding: 6rem o 9rem 0;
-        margin: 6rem 0 9rem 0;
-    }
-    body{
-        overflow-x: hidden;
-    }
-}
-/* @media  only screen and (max-width: 600px){
 
-} */
+@media screen and (max-width: 992px){
+    .footer-start{
+        width: 100%;
+    }
+
+}
