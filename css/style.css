@@ -536,7 +536,7 @@ h6,
 }
 @media (max-width: 768px) {
     .footer-start {
-        padding: 6rem 0 9rem 0;
+        padding: 6rem 6rem 9rem 0;
     }
 }
 /* @media  only screen and (max-width: 600px){
