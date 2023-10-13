@@ -1,4 +1,7 @@
-
+/* body */
+body{
+    overflow: hidden;
+}
 /********** Template CSS **********/
 :root {
     --primary: #0dcaf0;
@@ -292,8 +295,8 @@ h6,
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 15rem;
-    padding: 16rem 0 30rem 0;
+    margin-bottom: 20rem;
+    padding: 16rem 0 40rem 0;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-bottom.png),
         linear-gradient(to bottom right, var(--primary), var(--secondary));
