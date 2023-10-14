@@ -535,7 +535,7 @@ h6,
     padding-right: 0;
     border-right: none;
 }
-@media (max-width: 100%) {
+@media (max-width: 991.98px) {
     .footer-start{
         flex-direction: column !important; 
     }
