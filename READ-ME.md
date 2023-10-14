@@ -1,1 +1,1 @@
-  =>  Template Name    : FitApp - Mobile App HTML Template
+  =>  Template Name    : JayJay - Mobile  HTML Template

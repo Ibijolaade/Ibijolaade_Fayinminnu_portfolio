@@ -1,5 +1,6 @@
 /* body */
 body{
+    width: fit-content !important;
     overflow-x: hidden;
 }
 /********** Template CSS **********/
@@ -537,6 +538,6 @@ h6,
 }
 @media (max-width: 100%) {
     .footer-start{
-        flex-direction: column;
+        flex-direction: column !important; 
     }
 }
