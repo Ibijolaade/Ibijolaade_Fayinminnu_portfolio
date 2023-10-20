@@ -3,5 +3,5 @@ nav {
         to bottom right,
         var(--primary),
         var(--secondary)
-    );;
+    );
 }
