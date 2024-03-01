@@ -1,4 +1,4 @@
-# Ibijolaade's Poetfolio
+# Ibijolaade's Portfolio
 
 =>  Template Name    : JayJay - Mobile  HTML Template
    
